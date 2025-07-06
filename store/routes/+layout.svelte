@@ -1,13 +1,12 @@
 <script lang="ts">
+	import Header from './Header.svelte';
 	import '../app.css';
 
 	let { children } = $props();
 </script>
 
 <div class="app">
-	<header>
-
-	</header>
+	<Header />
 
 	<main>
 		{@render children()}
@@ -46,5 +45,13 @@
 		padding: 12px;
 	}
 
-	
+	footer a {
+		font-weight: bold;
+	}
+
+	@media (min-width: 480px) {
+		footer {
+			padding: 12px 0;
+		}
+	}
 </style>
