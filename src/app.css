@@ -1,9 +1,11 @@
 :root {
-	--font2: #222831; 
-	--font: #393e46;
+	--light-font: #aaaabc; 
+	--font: #454555;
 	--bg:#eeeeee;
-	--link:#0092ca;
+	--link:#0079b9;
 
+	--blue:#16357c;
+	--light-blue:#0079b9;
 
 }
 	
@@ -12,9 +14,10 @@
 
 /* https://www.howtogeek.com/get-a-clean-attractive-site-with-lines-of-css/ */
 
+
 html {
     box-sizing: border-box;
-    max-width: 70ch;
+    max-width: 70rem;
     margin: auto;
     font-size: 1.25em;
     color: var(--font);
@@ -41,6 +44,7 @@ a:link {
 }
 
 a:hover {
-	color:var(--font);
+	color:var(--blue);
     text-decoration: underline;
 }
+

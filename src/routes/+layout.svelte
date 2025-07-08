@@ -7,7 +7,8 @@
 
 <div class="app">
 	<header>
-		<p>Header here!</p>
+		<div>Header here!</div>
+		<div>and here!</div>
 	</header>
 
 	<main>
@@ -30,8 +31,16 @@
 	}
 
 	header {
-		border:0px solid red;
-		border-bottom:1px solid 
+		border-bottom:1px solid var(--font);
+		position:fixed;
+		min-width:100%;
+		background:#fff;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin:0;
+		padding:1rem;
 	}
 
 	main {
@@ -39,15 +48,13 @@
 		display: flex;
 		flex-direction: column;
 		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
+		margin: 5rem auto;
 		box-sizing: border-box;
 		border:0px solid green;
 	}
 
 	footer {
-		border:1px solid gray;
+		border-top:1px solid var(--font);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
