@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '../normalize.css';
 	import '../app.css';
 
 	let { children } = $props();
@@ -31,7 +30,7 @@
 	}
 
 	header {
-		border-bottom:1px solid var(--font);
+		border-bottom:1px solid var(--secondary);
 		position:fixed;
 		min-width:100%;
 		background:#fff;
@@ -47,14 +46,14 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		padding: 1rem;
+		padding:1rem;
+		max-width:72rem;
 		margin: 5rem auto;
-		box-sizing: border-box;
-		border:0px solid green;
+		
 	}
 
 	footer {
-		border-top:1px solid var(--font);
+		border-top:1px solid var(--secondary);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
