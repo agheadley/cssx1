@@ -577,6 +577,7 @@ strong {
 
 p {
   margin-top: 0;
+  
 }
 
 h1,
@@ -585,10 +586,12 @@ h3,
 h4,
 h5,
 h6 {
+	 /*font-family: "Roboto Serif","Noto Serif","Charis SIL", serif;*/
   font-weight: 300;
   letter-spacing: -.1rem;
   margin-bottom: 2.0rem;
   margin-top: 0;
+
 }
 
 h1 {
@@ -642,4 +645,3 @@ img {
   float: right;
 }
 
-/*# sourceMappingURL=milligram.css.map */
